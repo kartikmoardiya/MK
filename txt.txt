@@ -1,0 +1,14 @@
+Product
+1. Product Name
+2. Image
+3. Price
+4. Description
+5. Available stock
+
+
+Add To Card
+1. Product count
+
+
+User 
+1. User id
