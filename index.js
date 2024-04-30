@@ -7,7 +7,7 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 const PORT = process.env.PORT || 3000;
 
-// app.use('/product',product_route)
+app.use('/product',product_route)
 app.get('/', async (req, res) => {
     res.json({ msg: "Hello world" })
 })
